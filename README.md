@@ -1,4 +1,4 @@
-# 📝 Atividades | Python
+## 📝 Atividades | Python
 ### &nbsp;&nbsp;👩🏻‍💻 Análise e Desenvolvimento de Sistemas - FIAP (  Ano 1 | Fase 2 | Cap. 3 ) 
 
 1. Você foi procurado por um aluno do curso de Produção Multimídia do FIAP ON para desenvolver um trabalho em parceria: um serviço em que as pessoas possam usar um estúdio profissional para gravar seus vídeos para o YouTube com máxima qualidade. O serviço ganha dinheiro por meio de um sistema de assinaturas e de um bônus calculado por uma porcentagem sobre o faturamento que o canal do cliente obteve ao longo do ano.
