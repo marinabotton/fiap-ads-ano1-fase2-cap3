@@ -1,9 +1,11 @@
+# solicita a quantidade de votos de cada dia da semana
 segunda = int(input("Digite a quantidade de votos para segunda-feira: "))
 terca = int(input("Digite a quantidade de votos para terça-feira: "))
 quarta = int(input("Digite a quantidade de votos para quarta-feira: "))
 quinta = int(input("Digite a quantidade de votos para quinta-feira: "))
 sexta = int(input("Digite a quantidade de votos para sexta-feira: "))
 
+# compara os votos e exibe o dia mais votado
 if segunda > terca and segunda > quarta and segunda > quinta and segunda > sexta:
     print("O dia escolhido foi segunda-feira.")
 elif terca > segunda and terca > quarta and terca > quinta and terca > sexta:
