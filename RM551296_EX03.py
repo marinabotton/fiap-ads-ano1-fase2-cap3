@@ -5,14 +5,14 @@ prox_impar = 0
 prox_par = 0
 
 # Solicita as notas dos alunos ímpares
-print("VOCÊ ESTÁ DIGITANDO AS NOTAS DOS ALUNOS >>>ÍMPARES<<<:")
+print("VOCÊ ESTÁ DIGITANDO AS NOTAS DOS ALUNOS >>> ÍMPARES <<<:")
 for x in range(1, 50, 2):
     nota = float(input("POR FAVOR, INSIRA A NOTA DO ALUNO DE NÚMERO {}: ".format(x)))
     soma_impar += nota
     prox_impar += 1
 
 # Solicita as notas dos alunos pares
-print("AGORA, VOCÊ ESTÁ DIGITANDO AS NOTAS DOS ALUNOS >>>PARES<<<:")
+print("AGORA, VOCÊ ESTÁ DIGITANDO AS NOTAS DOS ALUNOS >>> PARES <<<:")
 for x in range(2, 51, 2):
     nota = float(input("POR FAVOR, INSIRA A NOTA DO ALUNO DE NÚMERO {}: ".format(x)))
     soma_par += nota
