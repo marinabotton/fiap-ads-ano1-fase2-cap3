@@ -1,26 +1,43 @@
+# Inicializa as variáveis
 soma_impar = 0
 soma_par = 0
-count_impar = 0
-count_par = 0
+prox_impar = 0
+prox_par = 0
 
-print("VOCÊ ESTÁ DIGITANDO AS NOTAS DOS ALUNOS ÍMPARES.")
+# Solicita as notas dos alunos ímpares
+print("VOCÊ ESTÁ DIGITANDO AS NOTAS DOS ALUNOS >>>ÍMPARES<<<:")
 for x in range(1, 50, 2):
-    nota = float(input(f"POR FAVOR, INSIRA A NOTA DO ALUNO DE NÚMERO {x}: "))
+    nota = float(input("POR FAVOR, INSIRA A NOTA DO ALUNO DE NÚMERO {}: ".format(x)))
     soma_impar += nota
-    count_impar += 1
+    prox_impar += 1
 
-print("VOCÊ ESTÁ DIGITANDO AS NOTAS DOS ALUNOS PARES.")
+# Solicita as notas dos alunos pares
+print("AGORA, VOCÊ ESTÁ DIGITANDO AS NOTAS DOS ALUNOS >>>PARES<<<:")
 for x in range(2, 51, 2):
-    nota = float(input(f"POR FAVOR, INSIRA A NOTA DO ALUNO DE NÚMERO {x}: "))
+    nota = float(input("POR FAVOR, INSIRA A NOTA DO ALUNO DE NÚMERO {}: ".format(x)))
     soma_par += nota
-    count_par += 1
+    prox_par += 1
 
-media_impar = soma_impar / count_impar
-media_par = soma_par / count_par
+# Calcula as médias de cada grupo
+media_impar = soma_impar / prox_impar
+media_par = soma_par / prox_par
 
+# Exibe a média dos grupos
+print("- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -")
+print("- - - - - -  A MÉDIA DOS ALUNOS ÍMPARES FOI: {:.2f}!  - - - - - - -".format(media_impar))
+print("- - - - - -   A MÉDIA DOS ALUNOS PARES FOI: {:.2f}!   - - - - - - -".format(media_par))
+print("- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -")
+
+# Verifica qual grupo teve a maior média e imprime o resultado
 if media_impar > media_par:
-    print("O grupo dos alunos ímpares teve a maior nota.")
+    print("- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -")
+    print("- - - O GRUPO DOS ALUNOS - ÍMPARES - OBTEVE A MAIOR MÉDIA!  - - -")
+    print("- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -")
 elif media_par > media_impar:
-    print("O grupo dos alunos pares teve a maior nota.")
+    print("- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -")
+    print("- - -  O GRUPO DOS ALUNOS - PARES - OBTEVE A MAIOR MÉDIA!   - - -")
+    print("- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -")
 else:
-    print("Os dois grupos tiveram a mesma nota.")
+    print("- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -")
+    print("- - - - - - OS DOIS GRUPOS OBTIVERAM A MESMA MÉDIA! - - - - - - -")
+    print("- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -")
