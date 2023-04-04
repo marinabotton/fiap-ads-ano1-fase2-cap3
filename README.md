@@ -33,12 +33,12 @@
     ATENÇÃO:</br>
     Seu programa não pode utilizar funções prontas para o cálculo do fatorial. Ele deve obrigatoriamente utilizar loop!
 
-    ## Respostas 🔍
+## 🔍 Respostas
 
-    - [Exercício 01](https://github.com/marinabotton/fiap_ads_ano1_fase2_cap3/blob/dd598b2a82196193362d28011a318ceaed4400d9/EX01.py/)
+   - [Exercício 01](https://github.com/marinabotton/fiap_ads_ano1_fase2_cap3/blob/dd598b2a82196193362d28011a318ceaed4400d9/EX01.py/)
 
-    - [Exercício 02](https://github.com/marinabotton/fiap_ads_ano1_fase2_cap3/blob/dd598b2a82196193362d28011a318ceaed4400d9/EX02.py/)
+   - [Exercício 02](https://github.com/marinabotton/fiap_ads_ano1_fase2_cap3/blob/dd598b2a82196193362d28011a318ceaed4400d9/EX02.py/)
 
-    - [Exercício 03](https://github.com/marinabotton/fiap_ads_ano1_fase2_cap3/blob/dd598b2a82196193362d28011a318ceaed4400d9/EX03.py/)
+   - [Exercício 03](https://github.com/marinabotton/fiap_ads_ano1_fase2_cap3/blob/dd598b2a82196193362d28011a318ceaed4400d9/EX03.py/)
 
-    - [Exercício 04](https://github.com/marinabotton/fiap_ads_ano1_fase2_cap3/blob/dd598b2a82196193362d28011a318ceaed4400d9/EX04.py/)
+   - [Exercício 04](https://github.com/marinabotton/fiap_ads_ano1_fase2_cap3/blob/dd598b2a82196193362d28011a318ceaed4400d9/EX04.py/)
